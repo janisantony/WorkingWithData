@@ -1,6 +1,7 @@
 ﻿using System;
+using StudentData;
 
-namespace StudentData
+namespace StudentDataWithLibrary
 {
     class Program
     {

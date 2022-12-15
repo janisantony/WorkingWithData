@@ -32,7 +32,7 @@ namespace StudentData
                         Name = (string)sqlDataReader["Name"],
                         Id = (int)sqlDataReader["Id"],
                         Age = (int)sqlDataReader["Age"],
-                        Marks =(int)sqlDataReader["Marks"]
+                        Marks = (int)sqlDataReader["Marks"]
                     });
                 }
                 return employees;
@@ -138,3 +138,4 @@ namespace StudentData
     }
 
 }
+
